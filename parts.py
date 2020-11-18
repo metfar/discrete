@@ -25,7 +25,7 @@
 def powerset(U):
 	x = len(U);
 	out=[];
-	for i in range(x* x):
+	for i in range(1<< x):
 		out.append([U[j] for j in range(x) if (i & (1<< j))]);
 	return(out);
 	
