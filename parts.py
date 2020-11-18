@@ -26,7 +26,7 @@ def powerset(U):
 	x = len(U);
 	out=[];
 	for i in range(x* x):
-		out.append([U[j] for j in range(x) if (i & (j* j))]);
+		out.append([U[j] for j in range(x) if (i & (1<< j))]);
 	return(out);
 	
 def main():
@@ -34,17 +34,21 @@ def main():
 	P_U=powerset(U);
 	P_U.sort();
 	flag=1;
+	O=set(U);
+	print("U=",O,"\n");
+	print("P_U=","{",end="");
 	for f in P_U:
 		a=set(f);
 		if(a==set()):
 			a="{}";
 		else:
-			a=str(a);
+			a=str(set(f));
 		print(a,end="");
 		if(flag<len(P_U)):
 			print(", ",end="");
 		flag+=1;
-	
+		
+	print(" }\n#P_U=",len(P_U));
 				
 	return(0);
 
