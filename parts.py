@@ -35,8 +35,8 @@ def main():
 	P_U.sort();
 	flag=1;
 	O=set(U);
-	print("U=",O,"\n");
-	print("P_U=","{",end="");
+	print("𝕌=",O,"\n");
+	print("𝒫(𝕌)=","{",end="");
 	for f in P_U:
 		a=set(f);
 		if(a==set()):
@@ -48,7 +48,7 @@ def main():
 			print(", ",end="");
 		flag+=1;
 		
-	print(" }\n#P_U=",len(P_U));
+	print(" }\n#𝒫(𝕌)=",len(P_U));
 				
 	return(0);
 
