@@ -70,7 +70,7 @@ How to use it
 
 
 def clrscr():
-	system("cls || clear");#just call system cls or if it does not work, clear
+	system("cls | clear");#just call system cls or if it does not work, clear
 
 def trimNotNumeric(x,allowed="-.0123456789"):
 	""" Eliminate any non-numeric character from x and output it as 
