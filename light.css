@@ -1,0 +1,81 @@
+body {
+	background:#e3e3e3; 
+	color:#222222;
+	width: 100vw;
+	}
+.showButton {
+	box-shadow: 3px 4px 9px 0px #1564ad;
+	width:30em;
+	background:linear-gradient(to bottom, #e1e1e1 5%, #e2e2e2 100%);
+	background-color:#e3e3e3;
+	border-radius:20px;
+	border:1px solid #f3eef3;
+	display:inline-block;
+	cursor:pointer;
+	color:#225522;
+	font-family:Courier New;
+	font-size:17px;
+	font-weight:bold;
+	padding:12px 44px;
+	text-decoration:none;
+	text-shadow:0px 1px 11px #222222;
+}
+.showButton:hover {
+	background:linear-gradient(to bottom, #25e225 5%, #22e222 100%);
+	background-color:#e3e3f3;
+}
+.showButton:active {
+	position:relative;
+	top:1px;
+}
+pre {
+	border:1px solid #22e222;
+	left:auto;
+	right:auto;
+	box-shadow: 3px 4px 9px 0px #1564ad;
+	align:center;
+	text-align: justify;
+	font-family: Courier;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: none;
+	letter-spacing: 2px;
+	line-height: 16px;
+	text-indent: 12px;
+	color: #003300;
+	background-color: #e3e3f3;
+	width: 70vw;
+	white-space: pre-wrap;       /* css-3 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+	margin: 25px;
+	}
+  div #command,#command{
+	border:1px solid #22e222;
+	width:80vw;
+	border:1px solid #f3eef3;
+	box-shadow: 3px 4px 9px 0px #1564ad;
+	align:center;
+	text-align: justify;
+	font-family: Courier;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: none;
+	letter-spacing: 2px;
+	line-height: 24px;
+	text-indent: 12px;
+	color: #003300;
+	background-color: #e3e3f3;
+	white-space: pre-wrap; 
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+	}
+

@@ -25,12 +25,12 @@
 def powerset(U):
 	x = len(U);
 	out=[];
-	for i in range(2** x):
-		out.append([U[j] for j in range(x) if (i & (2** j))]);
+	for i in range(1<< x):
+		out.append([U[j] for j in range(x) if (i & (1<< j))]);
 	return(out);
 	
 def main():
-	U=[1,2,3,4,5,6];
+	U=[16,17,19,26,27,29];
 	P_U=powerset(U);
 	P_U.sort();
 	flag=1;
