@@ -20,7 +20,7 @@
 		
 		∵			because, since 	  	 
 		
-		∀			for all
+					for all
 		
 		✓			verification correct
 		
@@ -630,7 +630,7 @@ but, this way, it is easier to memorize.
 		"⋚",    #836 LESS-THAN EQUAL TO OR GREATER-THAN
 		"≤",    #837 LESS-THAN OR EQUAL TO
 		"≲",    #838 LESS-THAN OR EQUIVALENT TO
-		"≶",    #839 LESS-THAN OR GREATER-THAN
+		"≶	",    #839 LESS-THAN OR GREATER-THAN
 		"≦",    #840 LESS-THAN OVER EQUAL TO
 		"⋖",    #841 LESS-THAN WITH DOT
 		"∧",    #842 LOGICAL AND
@@ -1343,7 +1343,7 @@ but, this way, it is easier to memorize.
 𝔸𝔹ℂ𝔻𝔼𝔽𝔾ℍ𝕀𝕁𝕂𝕃𝕄ℕℕ̃𝕆ℙℚℝ𝕊𝕋𝕌𝕍𝕎𝕏𝕐ℤ
 𝕒𝕓𝕔𝕕𝕖𝕗𝕘𝕙𝕚𝕛𝕜𝕝𝕞𝕟𝕟̃𝕠𝕡𝕢𝕣𝕤𝕥𝕦𝕧𝕨𝕩𝕪𝕫
 𝟘𝟙𝟚𝟛𝟜𝟝𝟞𝟟𝟠𝟡 
-
+ℜ
 ### Others
 SP U+0020
 ✁ U+2701
